@@ -82,7 +82,7 @@ target_include_directories(
         ${yaml-cpp_INCLUDE_DIRS}
 )
 
-target_sources(${PROJECT_NAME} PUBLIC ${PROJECT_SOURCE_FILES})
+target_sources(${PROJECT_NAME} INTERFACE ${PROJECT_SOURCE_FILES})
 
 target_link_libraries(
         ${PROJECT_NAME}
